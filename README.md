@@ -24,43 +24,42 @@ This project guides you through the process of uploading data to Amazon S3 and v
 2. Navigate to the **S3** service.
 3. Click on **Create bucket**.
 4. Provide a unique name for your bucket and configure the settings as needed.
-5. Click **Create bucket** to finalize.
+5. Click **Create bucket** to finalize and upload the files.
 
-   ![Creating an S3 bucket](<img width="749" alt="bucket creation" src="https://github.com/user-attachments/assets/436d3a19-05e9-42c3-87b0-31c2b6a295b1" />)
+   ![Texto alternativo](https://github.com/user-attachments/assets/436d3a19-05e9-42c3-87b0-31c2b6a295b1)
 
-## Uploading Files to S3
 
-1. Upload the necessary files to your Amazon S3 bucket.
-
-   ![Uploading files to S3](path/to/image1.png)
-
-2. Select the bucket where the files are located.
-
-   ![Selecting a bucket](path/to/image2.png)
 
 ## Setting Up in QuickSight
 
 1. Create a QuickSight account if you don’t already have one.
+In the part of registration, this will show you:
+    ![Texto alternativo](https://github.com/user-attachments/assets/645f1936-97f2-4d50-b515-a179bd8e1d66)
+And after that select S3:
+    ![Texto alternativo](https://github.com/user-attachments/assets/fad49bc2-be41-420c-8e1f-b71b43145ea0)
+Select our S3 bucket:
+     ![Texto alternativo](https://github.com/user-attachments/assets/abe754cc-61e1-4eff-8ecf-1f419efd5760)
+And you have your Quicksight account with the S3 Bucket.
 2. Navigate to **Databases** and select **New dataset**.
 3. Select the **S3** option.
 4. Fill in the two fields:
    - In the first field, type the name of your project.
    - In the second field, navigate to your S3 bucket, select the JSON file, and copy its S3 URL.
 
-   ![Setting up a dataset in QuickSight](path/to/image3.png)
+  ![Texto alternativo](https://github.com/user-attachments/assets/8678c013-b24c-4f03-9111-06000b85fbfd)
+
 
 ## Creating Visualizations
 
 1. Once your database is imported into QuickSight, start creating visualizations based on your requirements.
-
-   ![Creating visualizations in QuickSight](path/to/image4.png)
 
 2. After completing your analysis, you can save it:
    - Click on the right panel.
    - Select **Export**.
    - Choose **PDF File**.
 
-   ![Exporting a visualization](path/to/image5.png)
+   ![Visualizations](https://github.com/user-attachments/assets/4dfd3248-634f-46e0-ae1b-62c6b7c36bd6)
+
 
 ## Exporting and Deleting Your Account
 
@@ -68,7 +67,8 @@ This project guides you through the process of uploading data to Amazon S3 and v
    - Select **Account settings** in the right panel.
    - Confirm the termination of your account.
 
-   ![Deleting QuickSight account](path/to/image6.png)
+   ![Screenshot 2024-12-21 145634](https://github.com/user-attachments/assets/7f822869-53a5-4562-b323-ae83442e3ad0)
+
 
 2. You can recreate the account in the future if needed.
 
